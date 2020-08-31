@@ -16,7 +16,7 @@ A new flutter plugin project.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'Regift'
+  s.dependency 'Regift', '1.6.0'
   s.preserve_paths = 'Regift.framework'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-framework Regift' }
   s.vendored_frameworks = 'Regift.framework'
